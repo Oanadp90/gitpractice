@@ -11,7 +11,6 @@ num = int(input("Enter a number: "))
 factorial_result = factorial(num) #1st error: factorial() missing 1 argument: 'n'
 print(f"The factorial of {num} is: {factorial_result}")      
 
-
 #On line 11 we have the 1st error: factorial() missing 1 argument: 'n'.
 #As we would need to calculate the factorial of the number that user will enter, we need to give our factorial() function the argument: num
 
@@ -47,8 +46,7 @@ print(f"The factorial of {num} is: {factorial_result}")
 #The for loop will go through each number from n to 2 and multiply the current result with next number in the sequence for i, each time.
 #Also the result is being updated each step which contributes to the factorial being built up.
 
-#Please see below another way to resolve this.
-
+#Please see below a 2nd way to resolve this.
 # def factorial(n):
 #     if n == 0 or n == 1:
 #         return 1
@@ -57,19 +55,11 @@ print(f"The factorial of {num} is: {factorial_result}")
 #         for i in range(2,n + 1):
 #             result = result * i
 #     return result
-
-
 # num = int(input("Enter a number: "))
 # factorial_result = factorial(num) 
 # print(f"The factorial of {num} is: {factorial_result}")         
 
-
-
-
-
-
-
-
+#3rd Way to resolve it.
 # def factorial(n):
 #     if n == 0 or n == 1:
 #         return 1
