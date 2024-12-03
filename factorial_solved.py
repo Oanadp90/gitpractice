@@ -47,18 +47,7 @@ print(f"The factorial of {num} is: {factorial_result}")
 #The for loop will go through each number from n to 2 and multiply the current result with next number in the sequence for i, each time.
 #Also the result is being updated each step which contributes to the factorial being built up.
 
-
-
-
-
-
-
-
-
-
-
-
-
+#Please see below another way to resolve this.
 
 # def factorial(n):
 #     if n == 0 or n == 1:
